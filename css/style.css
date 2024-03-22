@@ -49,6 +49,19 @@ body {
   width: 100%;
 }
 
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 20px;
+  background: orange;
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -266,6 +279,7 @@ body {
   right: 10px;
   bottom: 20px;
 }
+/* Banner */
 
 #banner {
   display: flex;
@@ -278,4 +292,94 @@ body {
   width: 100%;
   height: 40vh;
   background-position: center;
+}
+
+#banner h4 {
+  font-size: 16px;
+}
+
+#banner span {
+  color: orange;
+}
+
+#banner h2 {
+  font-size: 40px;
+  padding: 10px 0;
+  font-weight: bolder;
+}
+
+button.normal:hover {
+  letter-spacing: 4px;
+  background: #afbbf2;
+  color: orange;
+}
+
+/* Arrival products */
+
+#arrival {
+  text-align: center;
+}
+
+/* Small banner */
+
+#sm-banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.banner-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-image: url("/img/wardrobe.webp");
+  background-size: cover;
+  min-width: 580px;
+  height: 50vh;
+  background-position: center;
+  padding: 30px;
+  /* margin-top: 20px;
+  border-radius: 10px; */
+}
+
+.banner-box2 {
+  background-image: url("/img/wardrobe3.webp");
+}
+
+.banner-box h4 {
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+}
+
+.banner-box h2 {
+  color: orange;
+  font-weight: 8 00;
+  font-size: 28px;
+}
+
+.banner-box span {
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+
+.banner-box button {
+  padding: 10px 16px;
+  border: 1px solid white;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s;
+  border-radius: 8px;
+}
+
+.banner-box:hover button {
+  background: #afbbf2;
+  border: 1px solid #afbbf2;
 }
