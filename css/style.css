@@ -161,7 +161,7 @@ nav .fa-bars {
 }
 
 .hero button {
-  background-image: url("/img/splash.png");
+  background-image: url("../img/splash.png");
   background-color: transparent;
   padding: 14px 80px 14px 60px;
   border: 0;
